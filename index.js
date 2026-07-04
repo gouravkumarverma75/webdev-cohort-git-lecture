@@ -19,6 +19,8 @@ subtract(10, 5);
 
 multiply(4, 5);
 multiply(6, 7);
+multiply(8, 9);
+
 
 
 
