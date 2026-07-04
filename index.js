@@ -7,11 +7,25 @@ function subtract(a, b) {
     }
     return a - b;
 }
+function multiply(a, b) {
+    if(!(a>0 && b>0)) {
+        throw new Error("a and b must be greater than 0");
+    }
+    return a * b;
+}
 add(5, 3);
 add(10, 20);
 add(15, 25);
 add(100, 200);
 
 subtract(10, 5);
+
+multiply(4, 5);
+multiply(6, 7);
+multiply(8, 9);
+multiply(10, 11);
+
+
+
 
 
