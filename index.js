@@ -8,6 +8,9 @@ function subtract(a, b) {
     return a - b;
 }
 function multiply(a, b) {
+    if(!(a>0 && b>0)) {
+        throw new Error("a and b must be greater than 0");
+    }
     return a * b;
 }
 add(5, 3);
