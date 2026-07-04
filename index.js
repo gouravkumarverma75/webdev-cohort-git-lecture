@@ -18,6 +18,7 @@ add(100, 200);
 subtract(10, 5);
 
 multiply(4, 5);
+multiply(6, 7);
 
 
 
